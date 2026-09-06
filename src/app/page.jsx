@@ -115,7 +115,7 @@ export default function page() {
         width={500}
         height={625} 
        loading="eager"
-        src="/images/55.jfif"
+        src="/images/55.webp"
         alt="3D character portrait of Elyas Forghani"
       />
     </div>
