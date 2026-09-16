@@ -15,6 +15,13 @@
 [Live Demo](https://parallax-portfolio-xi.vercel.app/) • [Report Issue](https://github.com/Elyasforghani/Parallax-Portfolio/issues) • [Get in Touch](mailto:elyasfgidev@gmail.com)
 
 </div>
+<div >
+  <img width="1920" height="919" alt="Image" src="https://github.com/user-attachments/assets/60bbcf46-4bd9-49a3-a851-1d42262483af" />
+
+<img width="1899" height="902" alt="Image" src="https://github.com/user-attachments/assets/ada180cf-ece2-49c2-a207-37f417ee415b" />
+
+<img width="1897" height="910" alt="Image" src="https://github.com/user-attachments/assets/8cdbd91a-e805-4347-83a3-0022f2d29878" />
+</div>
 
 ---
 
