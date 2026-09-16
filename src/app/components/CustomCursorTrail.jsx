@@ -1,9 +1,11 @@
 'use client'
 
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef, useSyncExternalStore } from 'react'
+
+const emptySubscribe = () => () => {}
 
 export default function CustomCursorTrail() {
-  const [mounted, setMounted] = useState(false)
+  const mounted = useSyncExternalStore(emptySubscribe, () => true, () => false)
   const canvasRef = useRef(null)
   const cursorRef = useRef(null)
   const cursorDotRef = useRef(null)
@@ -11,11 +13,10 @@ export default function CustomCursorTrail() {
   const animationIdRef = useRef(null)
 
   useEffect(() => {
-    setMounted(true)
-  }, [])
-
-  useEffect(() => {
     if (!mounted) return
+    if (window.matchMedia && !window.matchMedia('(pointer: fine)').matches) {
+      return
+    }
 
     const canvas = canvasRef.current
     if (!canvas) return
@@ -101,13 +102,15 @@ export default function CustomCursorTrail() {
   return (
     <>
       <style jsx global>{`
-        body,
-        a,
-        button,
-        input,
-        textarea,
-        select {
-          cursor: none !important;
+        @media (pointer: fine) {
+          body,
+          a,
+          button,
+          input,
+          textarea,
+          select {
+            cursor: none !important;
+          }
         }
       `}</style>
 

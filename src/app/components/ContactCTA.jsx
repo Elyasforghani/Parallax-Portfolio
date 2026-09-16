@@ -70,7 +70,6 @@ export default function ContactCTA() {
         }
       )
 
-      l
       gsap.from('.js-cta-content', {
         y: 60,
         opacity: 0,

@@ -10,6 +10,10 @@ export default function ScrollSmooth({ children }) {
   const lenisRef = useRef(null)
 
   useEffect(() => {
+    if (lenisRef.current?.lenis) {
+      window.__lenis = lenisRef.current.lenis
+    }
+
     function update(time) {
       lenisRef.current?.lenis?.raf(time * 1000)
     }
@@ -19,6 +23,7 @@ export default function ScrollSmooth({ children }) {
 
     return () => {
       gsap.ticker.remove(update)
+      window.__lenis = null
     }
   }, [])
 

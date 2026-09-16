@@ -86,8 +86,6 @@ export default function PinnedQuotes() {
           playsInline
           src="/videos/me.webm"
           className="absolute inset-0 w-full h-full object-cover will-change-transform brightness-[0.75]"
-          alt="Atmospheric architectural photography"
-          sizes="100vw"
         />
         <div className="absolute inset-0 bg-radial from-transparent via-black/40 to-black/80" />
 

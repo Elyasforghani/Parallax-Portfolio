@@ -34,7 +34,6 @@ export default function page() {
   return (
 
     <div className="font-title bg-neutral-950 text-neutral-100 min-h-screen">
-      <PinnedQuotes />
       {/* Top Floating Studio Header */}
       <header className="fixed top-0 left-0 right-0 z-50 px-6 py-5 flex items-center justify-between pointer-events-none mix-blend-difference text-white">
         <div className="pointer-events-auto flex items-center gap-2">
@@ -49,7 +48,7 @@ export default function page() {
         </div>
         <div className="pointer-events-auto flex items-center gap-3">
           <a
-            href="mailto:elyasforghani@example.com"
+            href="mailto:elyasfgidev@gmail.com"
             className="text-xs uppercase tracking-widest px-4 py-2 rounded-full border border-white/30 hover:bg-white hover:text-black transition-all duration-300 backdrop-blur-sm"
           >
             Get in touch
@@ -64,7 +63,7 @@ export default function page() {
       <StripeWipe />
 
       {/* Pinned Quotes Milestone Section */}
-
+      <PinnedQuotes />
 
       {/* Parallax Case Studies (Component structure completely preserved) */}
       <div id="cases" className="relative">
