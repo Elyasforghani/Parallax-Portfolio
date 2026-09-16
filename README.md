@@ -12,7 +12,7 @@
   <strong>An immersive, editorial creative developer portfolio driven by kinetic typography, multi-layered parallax choreography, and physics-based particle interactions.</strong>
 </p>
 
-[Live Demo](https://elyasforghani.dev) • [Report Issue](https://github.com/Elyasforghani/Parallax-Portfolio/issues) • [Get in Touch](mailto:elyasfgidev@gmail.com)
+[Live Demo](https://parallax-portfolio-xi.vercel.app/) • [Report Issue](https://github.com/Elyasforghani/Parallax-Portfolio/issues) • [Get in Touch](mailto:elyasfgidev@gmail.com)
 
 </div>
 
